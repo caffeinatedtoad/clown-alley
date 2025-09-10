@@ -1,0 +1,52 @@
+name: Nightly Codegen Update
+
+on:
+  # Run every night at midnight UTC
+  schedule:
+    - cron: '0 0 * * *'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-jesters:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.24'
+          cache: true
+      
+      - name: generate metadata
+        run: |
+          go run codegen/main.go
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if [[ -n "$(git status --porcelain jesters.yaml)" ]]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Create Pull Request
+        if: steps.check_changes.outputs.changes == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: update jesters.yaml via nightly codegen"
+          title: "Nightly Codegen Update for jesters.yaml"
+          body: |
+            This PR contains the latest changes to `jesters.yaml`.
+          branch: nightly-codegen-update
+          base: main
+          delete-branch: true
