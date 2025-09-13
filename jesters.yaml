@@ -1,4 +1,14 @@
 Mods:
+- category: Textures
+  items: []
+- category: Translates
+  items:
+  - credit: '[@olenicandrei](https://github.com/olenicandrei) and `@RO community`'
+    description: Romanian Localization Mod.
+    display_name: BalatRO
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/olenicandrei/balatro-romanian-translations
 - category: API
   items:
   - credit: '[@Besteon](https://github.com/besteon)'
@@ -1475,13 +1485,3 @@ Mods:
     install_type: repo
     mod_loader: lovely
     url: https://github.com/WilsontheWolf/balatro-mods/tree/master/lovely/ScoreImprovements
-- category: Textures
-  items: []
-- category: Translates
-  items:
-  - credit: '[@olenicandrei](https://github.com/olenicandrei) and `@RO community`'
-    description: Romanian Localization Mod.
-    display_name: BalatRO
-    install_type: repo
-    mod_loader: unknown
-    url: https://github.com/olenicandrei/balatro-romanian-translations
