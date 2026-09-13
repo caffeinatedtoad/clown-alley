@@ -1,6 +1,197 @@
 Mods:
+- category: Decks
+  items:
+  - credit: '[@JoStro](https://thunderstore.io/c/balatro/p/JoStro/)'
+    description: Simple custom deck that gives you a Jumbo Buffoon Pack at the start
+      of a run.
+    display_name: Buffoon Deck
+    install_type: repo
+    mod_loader: lovely
+    url: https://thunderstore.io/c/balatro/p/JoStro/Buffoon_Deck/
+- category: Functional
+  items:
+  - credit: '[@DeveloperRowan](https://github.com/developerrowan)'
+    description: Advanced Screen Shake is a mod that allows you to set the level of
+      your screenshake unreasonably high.
+    display_name: Advanced Screen Shake
+    install_type: repo
+    mod_loader: lovely
+    url: https://github.com/developerrowan/AmplifiedScreenShake
+  - credit: '[@PixeledLobster](https://github.com/PixeledLobster)'
+    description: Adds a draggable HUD checkbox and rebindable shortcut to force an
+      alternative game speed while playing a blind.
+    display_name: Alternative Speed Toggle
+    install_type: repo
+    mod_loader: lovely
+    url: https://github.com/PixeledLobster/balatro-alternative-speed-toggle
+  - credit: '[@OceanRamen](https://github.com/OceanRamen)'
+    description: Brainstorm allows for super-fast rerolling through the use of an
+      in-game key bind.
+    display_name: Brainstorm
+    install_type: repo
+    mod_loader: lovely
+    url: https://github.com/OceanRamen/Brainstorm
+  - credit: Brainstorm, with multi-platform native search engine. by [@lafiosca](https://github.com/lafiosca)
+    description: Green Needle is a powerful seed search mod inspired
+    display_name: Green Needle
+    install_type: repo
+    mod_loader: lovely
+    url: https://github.com/lafiosca/GreenNeedle
+  - credit: '[@PixeledLobster](https://github.com/PixeledLobster)'
+    description: Adds an in-run panel with buttons to select any available poker hand,
+      suit or combination in one click, with rebindable keyboard shortcuts for every
+      action.
+    display_name: Quick Hand Selector
+    install_type: repo
+    mod_loader: lovely
+    url: https://github.com/PixeledLobster/Quick-Hand-Selector
+  - credit: '[@MathIsFun_](https://github.com/mathisfun0) <img src="https://img.shields.io/badge/occasional%20crashes-smods%20v1.0.0-orange"
+      align="center">'
+    description: Talisman is a mod for Balatro that increases the score cap from ~10^308
+      to ~10^10^308, allowing for endless runs to go past "naneinf" and Ante 39.
+    display_name: Talisman
+    install_type: repo
+    mod_loader: lovely
+    url: https://github.com/MathIsFun0/Talisman
+  - credit: '[@kasimeka](https://github.com/kasimeka)'
+    description: typist is an implementation of fully keyboard-driven UX for Balatro
+      and includes a lot of QoL shortcuts as well.
+    display_name: typist
+    install_type: repo
+    mod_loader: lovely
+    url: https://github.com/kasimeka/balatro-typist-mod
+- category: GUI
+  items:
+  - credit: '[@nh6574](https://github.com/nh6574/)'
+    description: Adds a small window under vanilla Jokers that displays useful information.
+    display_name: JokerDisplay
+    install_type: repo
+    mod_loader: lovely
+    url: https://github.com/nh6574/JokerDisplay
+  - credit: '[@Eremel_](https://github.com/Eremel)'
+    description: Malverk is an all-in-one texture manager. With an inbuilt API for
+      AltTextures and TexturePacks, Malverk integrates a simple UI to customise which
+      textures are applied to your game whenever you wish.
+    display_name: Malverk
+    install_type: repo
+    mod_loader: lovely
+    url: https://github.com/Eremel/Malverk
+  - credit: '[@antler5](https://github.com/antler5)'
+    description: '"Use" a planet card while the cash-out animations play.'
+    display_name: Planet Card Cash-Out Mod
+    install_type: repo
+    mod_loader: lovely
+    url: https://github.com/antler5/Balatro-Planet-Card-Cash-Out-Mod
+  - credit: using a more legible vector typeface and smoothly upscaled card textures.
+      by [@bladeSk](https://github.com/bladeSk)
+    description: Readabletro improves readability of the game, especially on lower
+      res screens (Steam Deck)
+    display_name: Readabletro
+    install_type: repo
+    mod_loader: lovely
+    url: https://github.com/bladeSk/readabletro
+- category: Jokers
+  items:
+  - credit: '[@JoStro](https://thunderstore.io/c/balatro/p/JoStro/)'
+    description: A custom joker that copies the abilities of other jokers at random.
+    display_name: Parrot Joker
+    install_type: repo
+    mod_loader: lovely
+    url: https://thunderstore.io/c/balatro/p/JoStro/Parrot_Joker/
+- category: Miscellaneous
+  items:
+  - credit: '[@Muddie](https://github.com/Muddieee)'
+    description: On win screen, replaces the "YOU WIN!" text with "#1 VICTORY ROYALE!"
+      and the default win music with fortnite default dance.
+    display_name: '#1 Victory Royale!'
+    install_type: repo
+    mod_loader: lovely
+    url: https://github.com/Muddieee/balatro_victory_royale
+  - credit: '[@stupxd](https://github.com/stupxd)'
+    description: Improved deck view and joker management with stacking and scrolling,
+      capped deck pile and scoring flames customization. Made for long endless runs
+      and crazy modded runs.
+    display_name: Cartomancer
+    install_type: repo
+    mod_loader: lovely
+    url: https://github.com/stupxd/Cartomancer
+  - credit: '[@stupxd](https://github.com/stupxd) <img src="https://img.shields.io/badge/not%20mobile%20compatible-smods%20v1.0.0-lightgrey"
+      align="center"><img src="https://img.shields.io/badge/patch%20in%20works-blueviolet"
+      align="center">'
+    description: Dynamically adjust Blueprint joker texture to the joker it is copying.
+    display_name: Blueprint
+    install_type: repo
+    mod_loader: lovely
+    url: https://github.com/stupxd/Blueprint
+  - credit: '[@bryanthaboi](https://github.com/bryanthaboi)'
+    description: Turns the entire game into a game of Solitaire.
+    display_name: Solatro
+    install_type: repo
+    mod_loader: lovely
+    url: https://github.com/bryanthaboi/solatro
+  - credit: '[@Muddie](https://github.com/Muddieee)'
+    description: Renames The Sun tarot card to The Sus and replaces its texture.
+    display_name: When the impostor is Sun
+    install_type: repo
+    mod_loader: lovely
+    url: https://github.com/Muddieee/sun_is_sus
+- category: Translates
+  items:
+  - credit: '[@Nitablade](https://github.com/Nitablade)'
+    description: Russian localization for Balatro.
+    display_name: ProperRussian
+    install_type: repo
+    mod_loader: lovely
+    url: https://github.com/Nitablade/Balatro_ProperRussian
+- category: Utils
+  items:
+  - credit: '[@WilsontheWolf](https://github.com/WilsontheWolf)'
+    description: A simple mod that adds a bunch more debug functions on top of Balatro's
+      built in.
+    display_name: DebugPlus
+    install_type: repo
+    mod_loader: lovely
+    url: https://github.com/WilsontheWolf/DebugPlus
+  - credit: '[@JoStro](https://thunderstore.io/c/balatro/p/JoStro/)'
+    description: Exposes json.lua as a module using lovely.
+    display_name: json
+    install_type: repo
+    mod_loader: lovely
+    url: https://thunderstore.io/c/balatro/p/JoStro/json/
+  - credit: '[@JoStro](https://thunderstore.io/c/balatro/p/JoStro/)'
+    description: Lets mods add item prototypes, descriptions and custom sprites with
+      simple json configuration files.
+    display_name: JSUtils
+    install_type: repo
+    mod_loader: lovely
+    url: https://thunderstore.io/c/balatro/p/JoStro/JSUtils/
+  - credit: '[@WilsontheWolf](https://github.com/WilsontheWolf)'
+    description: Misc score improvements (Better score display, fixed fire at inf,
+      inf blinds let you win).
+    display_name: ScoreImprovements
+    install_type: repo
+    mod_loader: lovely
+    url: https://github.com/WilsontheWolf/balatro-mods/tree/master/lovely/ScoreImprovements
+- category: Textures
+  items: []
+- category: Translates
+  items:
+  - credit: '[@olenicandrei](https://github.com/olenicandrei) and `@RO community`'
+    description: Romanian Localization Mod.
+    display_name: BalatRO
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/olenicandrei/balatro-romanian-translations
 - category: API
   items:
+  - credit: '[@RakibRyan](https://github.com/RakibRyan) <img src="https://img.shields.io/badge/experimental-smods%20v1.0.0-blue"
+      align="center">'
+    description: An api for adding custom hand poker hands, 6 of a kind, 7 royal flush,
+      8 eights whatever you want.
+    display_name: After-Five-Api
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/RakibRyan/After-Five-Api
   - credit: '[@Besteon](https://github.com/besteon)'
     description: A Botting API for Balatro.
     display_name: Balatrobot
@@ -35,7 +226,9 @@ Mods:
     url: https://github.com/Infarcactus/Balatro-Custom-Sound-Player
 - category: Blinds
   items:
-  - credit: '[@Bazinga9000](https://github.com/Bazinga9000)'
+  - credit: '[@Bazinga9000](https://github.com/Bazinga9000) <img src="https://img.shields.io/badge/needs%20api%20rewrite-smods%20v0.9.2-orange"
+      align="center"><img src="https://img.shields.io/badge/patch%20in%20works-blueviolet"
+      align="center">'
     description: This mod adds seventeen (and counting) new blinds based on mathematical
       symbols.
     display_name: MathBlinds
@@ -153,7 +346,8 @@ Mods:
     url: https://github.com/Wiwiweb/BalatroMods
 - category: Consumable cards
   items:
-  - credit: '[@itayfeder](https://github.com/itayfeder)'
+  - credit: '[@itayfeder](https://github.com/itayfeder) <img src="https://img.shields.io/badge/occasional%20crashes-smods%20v0.9.8-orange"
+      align="center">'
     description: 'Adds a new set of cards: Alchemy!'
     display_name: Codex Arcanum
     install_type: repo
@@ -165,6 +359,13 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/JeffVi/DX-Tarots
+  - credit: '[jumbocarrot0](https://github.com/jumbocarrot0/) <img src="https://img.shields.io/badge/occasional%20crashes-smods%20v0.9.8-orange"
+      align="center">'
+    description: tweaks of Codex-Arcanum.
+    display_name: Redux-Arcanum
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/jumbocarrot0/Redux-Arcanum
   - credit: '[AutumnMood](https://github.com/AutumnMood924)'
     description: A modularized Balatro mod adding a variety of content!
     display_name: The Autumn Circus
@@ -179,6 +380,12 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/Steamodded/examples/blob/master/Mods/AbsoluteDeck.lua
+  - credit: '[@tgreenmonkey](https://github.com/tgreenmonkey)'
+    description: Replaces all vanilla decks with inversed versions of them!
+    display_name: Deck Inversion Challenge Konfiguration
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/tgreenmonkey/Deck-Inversion-Challenge-Konfiguration
   - credit: '[@Steamo](https://github.com/Steamopollys)'
     description: Create a special deck that only contains **4**s!
     display_name: Deck of 4
@@ -238,6 +445,15 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/Hellyom/HellyomBalatroMods
+  - credit: the [Small World ruleset for Balatro multiplayer](https://github.com/Balatro-Multiplayer/BalatroMultiplayer).
+      by [@jacksoncmu](https://github.com/jacksoncmu)
+    description: A deck that randomly bans 75% of all of all Jokers, Tarots, Planets,
+      and Spectrals each run, forcing you to adapt and experiment with new builds.
+      Starts you off with a Negative Showman. Inspired
+    display_name: SmallWorldDeck
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/jacksoncmu/smallworld-deck-balatro
   - credit: '[@NewtTheFish](https://github.com/NewtTheFish)'
     description: A few decks, jokers, etc. Have fun!
     display_name: Sylvie's Silliness
@@ -259,7 +475,8 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/Numbuh214/X-Card
-  - credit: '[@Goldfighter5](https://github.com/Goldfighter5)'
+  - credit: '[@Goldfighter5](https://github.com/Goldfighter5) <img src="https://img.shields.io/badge/fully%20functional-smods%20v1.0.0-brightgreen"
+      align="center">'
     description: Adds the enhancement "Rainbow Cards" to the game, which give 3x mult,
       as well as 4 new tarot cards and 1 new spectral.
     display_name: Gold's Cards
@@ -281,6 +498,21 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/encarvlucas/EncarvlucasBalatroMods
+  - credit: '[@RakibRyan](https://github.com/RakibRyan/) <img src="https://img.shields.io/badge/fully%20functional-smods%20v1.0.0-brightgreen"
+      align="center">'
+    description: Shows the seed and makes you able to copy it at all time on the options
+      eveon on non seeded run.
+    display_name: Always Show Seed rekindled
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/RakibRyan/always-show-seed-rekindled-balatro
+  - credit: '[@MathIsFun0](https://github.com/MathIsFun0) <img src="https://img.shields.io/badge/fully%20functional-smods%20v1.0.0-brightgreen"
+      align="center">'
+    description: Lets plant cards generate with editions
+    display_name: Aurinko
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/MathIsFun0/JensBalatroCollection/tree/main/Aurinko
   - credit: '[@TsunamiinFantasy](https://github.com/TsunamiinFantasy)'
     description: I made this module for quick file reads. Repeatedly switching to
       the main menu was too painful.
@@ -343,6 +575,13 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/snowylight/GameSpeed-Display-and-Spacereroll
+  - credit: '[@RakibRyan](https://github.com/RakibRyan) <img src="https://img.shields.io/badge/experimental-smods%20v1.0.0-blue"
+      align="center">'
+    description: Allows you to select 6 cards to play.
+    display_name: Hand of Six Smods
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/RakibRyan/Hand-of-six-smods
   - credit: '[@DorkDad141](https://github.com/DorkDad141) based on [@Agoraaa](https://github.com/Agoraaa)''s
       mod'
     description: Adds hotkeys / keyboard shortcuts for a wide range of Balatro game
@@ -358,7 +597,8 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/Mysthaps/BalatroMods
-  - credit: '[@Akita Attribute](https://github.com/AkitaAttribute)'
+  - credit: '[@Akita Attribute](https://github.com/AkitaAttribute) <img src="https://img.shields.io/badge/fully%20functional-smods%20v1.0.0-brightgreen"
+      align="center">'
     description: Increase Base Joker Capacity.
     display_name: IncreaseJokerCap
     install_type: repo
@@ -370,7 +610,8 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/AkitaAttribute/IncreaseSoulProbability
-  - credit: '[@JamestheJellyfish](https://github.com/jamesthejellyfish)'
+  - credit: '[@JamestheJellyfish](https://github.com/jamesthejellyfish) <img src="https://img.shields.io/badge/needs%20api%20rewrite-smods%20v0.7.2-orange"
+      align="center">'
     description: A mod to increase the score cap from 1.7e308 to effectively infinite.
     display_name: InfinteScore
     install_type: repo
@@ -382,6 +623,12 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/JimboStats/jimbo-stats-mod
+  - credit: ""
+    description: ""
+    display_name: lock-the-deal
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/LnxFCA/balatro-mods/tree/main/lock-the-deal
   - credit: '[@Amavoleda](https://github.com/Amvoled)'
     description: Allows multiple card sprites to coexist and be randomly picked when
       displayed.
@@ -441,6 +688,13 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/WilsontheWolf/balatro-mods/tree/master/steamodded/Rumble
+  - credit: '[@OceanRamen](https://github.com/OceanRamen/)'
+    description: introduces some Quality of Life features for better game experience
+      on endless mode..
+    display_name: Saturn
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/OceanRamen/Saturn
   - credit: '[@n4ru](https://github.com/n4ru)'
     description: Allows seeding challenge runs.
     display_name: Seed Challenges
@@ -474,7 +728,8 @@ Mods:
     url: https://github.com/xioxin/BalatroMods
 - category: GUI
   items:
-  - credit: '[@Toeler](https://github.com/Toeler)'
+  - credit: '[@Toeler](https://github.com/Toeler) <img src="https://img.shields.io/badge/not%20mobile%20compatible-smods%20v1.0.0-lightgrey"
+      align="center">'
     description: Adds a window showing the possible poker hands that you can make
       with your current hand!
     display_name: Balatro Hand Preview
@@ -494,6 +749,14 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/Zei33/balatro-safety-steamodded
+  - credit: '[@jagodben](https://github.com/jagodben)'
+    description: Records your all-time personal best for every scaling Joker (shown
+      right on the card) and every poker hand level, and expands the Card Stats screen
+      to page through every card instead of the top 10.
+    display_name: Balatro Stats
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/jagodben/Balatro-Record-Stats-Mod
   - credit: '[@cantlookback](https://github.com/cantlookback)'
     description: Helpful game overlay.
     display_name: BalatrOverlay
@@ -526,31 +789,36 @@ Mods:
     install_type: gist
     mod_loader: unknown
     url: https://gist.github.com/theVDude/c8d33960f869207da4a69cc7c035e68d
-  - credit: '[@Zei33](https://github.com/Zei33)'
+  - credit: '[@Zei33](https://github.com/Zei33) <img src="https://img.shields.io/badge/fully%20functional-smods%20v1.0.0-brightgreen"
+      align="center">'
     description: Adds a deselect all button to deselect all highlighted cards.
     display_name: Deselect All
     install_type: repo
     mod_loader: unknown
     url: https://github.com/Zei33/deselect-all-steamodded
-  - credit: '[@DivvyCr](https://github.com/DivvyCr)'
+  - credit: '[@DivvyCr](https://github.com/DivvyCr) <img src="https://img.shields.io/badge/partial%20mod%20conflict-smods%20v1.0.0-yellow"
+      align="center">'
     description: View your last played hand!
     display_name: Divvy's History
     install_type: repo
     mod_loader: unknown
     url: https://github.com/DivvyCr/Balatro-History
-  - credit: '[@DivvyCr](https://github.com/DivvyCr)'
+  - credit: '[@DivvyCr](https://github.com/DivvyCr) <img src="https://img.shields.io/badge/partial%20mod%20conflict-smods%20v1.0.0-yellow"
+      align="center">'
     description: Simulate and preview the score that your hand will get!
     display_name: Divvy's Preview
     install_type: repo
     mod_loader: unknown
     url: https://github.com/DivvyCr/Balatro-Preview
-  - credit: '[@Steamo](https://github.com/Steamopollys)'
+  - credit: '[@RakibRyan](https://github.com/RakibRyan) <img src="https://img.shields.io/badge/fully%20functional-smods%20v1.0.0-brightgreen"
+      align="center">'
     description: Add an "Exit" button into the "Escape" menu.
-    display_name: Escape Exit Button
+    display_name: Exit Button
     install_type: repo
     mod_loader: unknown
-    url: https://github.com/Steamodded/examples/blob/master/Mods/EscapeExitButton.lua
-  - credit: '[@happinyz](https://github.com/happinyz)'
+    url: https://github.com/RakibRyan/exit-button-rekindled-balatro/
+  - credit: '[@happinyz](https://github.com/happinyz) <img src="https://img.shields.io/badge/fully%20functional-smods%20v1.0.0-brightgreen"
+      align="center">'
     description: Quickly forfeit your runs with the 'Fold' button!
     display_name: Fold Button
     install_type: repo
@@ -563,7 +831,8 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/fosterbarnes/balatroGayPenis
-  - credit: '[@Wiwiweb](https://github.com/Wiwiweb)'
+  - credit: '[@Wiwiweb](https://github.com/Wiwiweb) <img src="https://img.shields.io/badge/buggy-smods%20v0.9.8-yellow"
+      align="center">'
     description: Pauses a moment for the final Chip X Mult count, and another moment
       for the final hand chip total. Especially noticeable on big hands that trigger
       flames.
@@ -571,7 +840,9 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/Wiwiweb/BalatroMods/blob/main/HoldForFinalHandScore.lua
-  - credit: '[@jenwalter666](https://github.com/cubeanimataz), [@MathIsFun_](https://github.com/MathIsFun0)'
+  - credit: '[@jenwalter666](https://github.com/cubeanimataz), [@MathIsFun_](https://github.com/MathIsFun0)
+      <img src="https://img.shields.io/badge/use%20Saturn-smods%20v1.0.0-lightgrey"
+      align="center">'
     description: Enables the ability to stack identical consumables.
     display_name: Incantation
     install_type: repo
@@ -595,13 +866,8 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://gitlab.com/CraftedCart/jimbos_metrics
-  - credit: '[@nh6574](https://github.com/nh6574/)'
-    description: Adds a small window under vanilla Jokers that displays useful information.
-    display_name: JokerDisplay
-    install_type: repo
-    mod_loader: unknown
-    url: https://github.com/nh6574/JokerDisplay
-  - credit: '[@OppositeWolf770](https://github.com/OppositeWolf770)'
+  - credit: '[@OppositeWolf770](https://github.com/OppositeWolf770) <img src="https://img.shields.io/badge/fully%20functional-smods%20v1.0.0-brightgreen"
+      align="center">'
     description: QOL mod for Jokers in Buffoon Packs and the shop.
     display_name: JokerSellValue
     install_type: repo
@@ -613,7 +879,8 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/ssyangchn/ManualFlip
-  - credit: '[@Steamo](https://github.com/Steamopollys)'
+  - credit: '[@Steamo](https://github.com/Steamopollys) <img src="https://img.shields.io/badge/use%20Saturn-smods%20v1.0.0-lightgrey"
+      align="center">'
     description: More Speed options!
     display_name: More Speed
     install_type: repo
@@ -632,6 +899,19 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/Hellyom/HellyomBalatroMods
+  - credit: ""
+    description: ""
+    display_name: SilkTouch
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/HuyTheKiller/SilkTouch
+  - credit: '[@RakibRyan](https://github.com/RakibRyan/) <img src="https://img.shields.io/badge/fully%20functional-smods%20v1.0.0-brightgreen"
+      align="center">'
+    description: a simple lightweight mod that shows fps
+    display_name: Simple fps display
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/RakibRyan/simple-fps-display-balatro
   - credit: '[@Eremel_](https://github.com/Eremel)'
     description: Adds a shader to allow easy recolouring of spectral cards.
     display_name: Spectral Recolouring
@@ -684,7 +964,8 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/gabepesco/BalatroAncientJokerFix
-  - credit: '[@JamestheJellyfish](https://github.com/jamesthejellyfish)'
+  - credit: '[@JamestheJellyfish](https://github.com/jamesthejellyfish) <img src="https://img.shields.io/badge/playable%20but%20laggy-smods%20v1.0.0-yellowgreen"
+      align="center">'
     description: Adds the Bad Apple Joker to the game.
     display_name: Bad Apple Joker
     install_type: repo
@@ -696,12 +977,21 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/BBBalatroMod/BBBalatro/tree/main
-  - credit: '[@Betmma](https://github.com/betmma)'
+  - credit: '[@Betmma](https://github.com/betmma) <img src="https://img.shields.io/badge/not%20mobile%20compatible-smods%20v1.0.0-lightgrey"
+      align="center">'
     description: 5 More Jokers!
     display_name: Betmma Jokers
     install_type: repo
     mod_loader: unknown
     url: https://github.com/betmma/my_balatro_mods
+  - credit: '[@RakibRyan](https://github.com/RakibRyan) <img src="https://img.shields.io/badge/fully%20functional-smods%20v1.0.0-brightgreen"
+      align="center">'
+    description: The same Betmma mods with compatible shaders, allowing them to work
+      on mobile devices.
+    display_name: Betmma Jokers Mobile Friendly
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/RakibRyan/Betmma-Jokers-Mobile-friendly
   - credit: '[@ZJWCY](https://github.com/ZJWCY)'
     description: Once there was an explosion. A bang which caused a naneinf in a round.
       (2 jokers & 1 challenge).
@@ -716,6 +1006,12 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/ilikecheese0/CheesyJokers
+  - credit: '[@benjistokman](https://github.com/benjistokman)'
+    description: 7 3 common, 2 uncommon, and 2 rare jokers similar to Red Card,
+    display_name: Colored Card Pack
+    install_type: repo
+    mod_loader: unknown
+    url: https://git.benstokman.me/benjistokman/colored-card-pack
   - credit: a die roll. by [@ItsFlowwey](https://github.com/GauntletGames-2086)
     description: Adds D6 Jokers that have their effects determined
     display_name: D6 Jokers
@@ -728,14 +1024,15 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/snowylight/DatealiveBalatro
-  - credit: '[@Snoresville](https://github.com/Snoresville)'
+  - credit: '[@Snoresville](https://github.com/Snoresville) <img src="https://img.shields.io/badge/fully%20functional-smods%20v1.0.0-brightgreen"
+      align="center">'
     description: This mod features one (1) custom Joker, and a custom deck that revolves
       around its mechanics.
     display_name: Emergence
     install_type: repo
     mod_loader: unknown
     url: https://github.com/Snoresville/balatro-emergence-joker
-  - credit: '[@Flounderful](https://github.com/Flounderlul)'
+  - credit: ""
     description: Adds a variety of different jokers.
     display_name: FloundersJokers
     install_type: repo
@@ -754,6 +1051,13 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/JulianDeclercq/harambes-chosen
+  - credit: American Heart Association. by `Balatro University Community`
+    description: Balatro University community project made for the House of Hearts
+      event organised
+    display_name: House of Hearts
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/PLagger7/House-of-Hearts
   - credit: '[@Lyman](https://github.com/spikeof2010)'
     description: A small pack of Jokers for the game.
     display_name: JankJonklers
@@ -772,6 +1076,12 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/SDM0/Joker-Evolution
+  - credit: '[@Mysthaps](https://github.com/Mysthaps)'
+    description: A Balatro mod. Face the Fear, Build the Future.
+    display_name: LobotomyCorp
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/Mysthaps/LobotomyCorp
   - credit: '[@lusciousdev](https://github.com/lusciousdev)'
     description: Pack with 9 jokers with some interesting effects.
     display_name: LushMod
@@ -838,7 +1148,8 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/RedrcknRbn/Panley-Joker
-  - credit: '[@Beeks17](https://github.com/erachlin)'
+  - credit: '[@Beeks17](https://github.com/erachlin) <img src="https://img.shields.io/badge/fully%20functional-smods%20v1.0.0-brightgreen"
+      align="center">'
     description: A joker based on Pi.
     display_name: PiJoker
     install_type: repo
@@ -883,6 +1194,13 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/ao-u/ror2funnyitems
+  - credit: '[@RakibRyan](https://github.com/RakibRyan) <img src="https://img.shields.io/badge/experimental-smods%20v1.0.0-blue"
+      align="center">'
+    description: Extend balatro hand beyond 5 cards per round. +1 card per joker.
+    display_name: Rule Breaker Joker
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/RakibRyan/Rule-Breaker-Joker
   - credit: '[@crmykybord](https://github.com/crmykybord)'
     description: A vanilla-esque mod that aims to add new and faithful content to
       Balatro (Currently contains 45+ Jokers).
@@ -896,6 +1214,12 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/AlexDavies8/balatro-mods
+  - credit: '[@Kastamera](https://github.com/Kastamera)'
+    description: Adds 31 new Jokers and a new deck based on Slay the Princess.
+    display_name: Slay the Princess
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/Kastamera/SlayThePrincess
   - credit: '[@Snoreville](https://github.com/Snoreville)'
     description: 15 Jokers (6 Common, 5 Uncommon, 3 Rare, 1 Legendary) and 7 Decks
       that revolve around some of the Jokers.
@@ -949,14 +1273,16 @@ Mods:
     url: https://github.com/snowylight/Zilliax
 - category: Seals
   items:
-  - credit: '[@Flounder](https://github.com/Flounderlul)'
+  - credit: '[@Flounder](https://github.com/Flounderlul) <img src="https://img.shields.io/badge/patch%20in%20works-smods%20v1.0.0-blueviolet"
+      align="center">'
     description: adds seals that mess with probability.
     display_name: Dice Seals
     install_type: repo
     mod_loader: unknown
     url: https://github.com/Flounderlul/Dice-seals
   - credit: 1 when discarded. A card with the green seal will also apply a X0.75 mult
-      if the card is scored. by [@AxBolduc](https://github.com/AxBolduc)
+      if the card is scored. by [@AxBolduc](https://github.com/AxBolduc) <img src="https://img.shields.io/badge/patch%20in%20works-smods%20v1.0.0-blueviolet"
+      align="center">
     description: Add a green seal which will increase the hand size for a given round
     display_name: Green Seal
     install_type: repo
@@ -990,7 +1316,8 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/itayfeder/MusicalSuit
-  - credit: '[@Aure](https://github.com/Aurelius7309) and `@CrimsonHeart`'
+  - credit: '[@Aure](https://github.com/Aurelius7309) and `@CrimsonHeart` <img src="https://img.shields.io/badge/fully%20functional-smods%20v1.0.0-brightgreen"
+      align="center">'
     description: 'This mod adds two new suits to the game: Stars and Moons.'
     display_name: Six Suits
     install_type: repo
@@ -1011,7 +1338,9 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/SirMaiquis/Balatro-TagManager
-  - credit: '`@JK`'
+  - credit: '`@JK` <img src="https://img.shields.io/badge/occasional%20crashes-smods%20v1.0.0-orange"
+      align="center"><img src="https://img.shields.io/badge/patch%20in%20works-blueviolet"
+      align="center">'
     description: Uncommon, Rare, Foil, Holographic, Polychrome and Negative Tags show
       the Joker you will receive in the shop.
     display_name: Tags Preview
@@ -1114,12 +1443,21 @@ Mods:
     url: https://github.com/FrBmt-BIGetNouf/balatro-french-translations
 - category: Vouchers
   items:
-  - credit: '[@Betmma](https://github.com/betmma)'
+  - credit: '[@Betmma](https://github.com/betmma) <img src="https://img.shields.io/badge/not%20mobile%20compatible-smods%20v1.0.0-lightgrey"
+      align="center">'
     description: 10 More Vouchers!
     display_name: Betmma Vouchers
     install_type: repo
     mod_loader: unknown
     url: https://github.com/betmma/my_balatro_mods
+  - credit: '[@RakibRyan](https://github.com/RakibRyan) <img src="https://img.shields.io/badge/fully%20functional-smods%20v1.0.0-brightgreen"
+      align="center">'
+    description: The same Betmma Vouchers mod with compatible shaders, allowing it
+      to work on mobile devices.
+    display_name: Betmma Vouchers Mobile Friendly
+    install_type: repo
+    mod_loader: unknown
+    url: https://github.com/RakibRyan/Betmma-Jokers-Mobile-friendly
 - category: Utils
   items:
   - credit: '[@Kenny Stone](https://github.com/Ken-Shi)'
@@ -1345,143 +1683,3 @@ Mods:
     install_type: repo
     mod_loader: unknown
     url: https://github.com/nicholassam6425/balatro-mods?tab=readme-ov-file#hobby-shop-modsv_hobby_shoplua
-- category: Decks
-  items:
-  - credit: '[@JoStro](https://thunderstore.io/c/balatro/p/JoStro/)'
-    description: Simple custom deck that gives you a Jumbo Buffoon Pack at the start
-      of a run.
-    display_name: Buffoon Deck
-    install_type: repo
-    mod_loader: lovely
-    url: https://thunderstore.io/c/balatro/p/JoStro/Buffoon_Deck/
-- category: Functional
-  items:
-  - credit: '[@OceanRamen](https://github.com/OceanRamen)'
-    description: Brainstorm allows for super-fast rerolling through the use of an
-      in-game key bind.
-    display_name: Brainstorm
-    install_type: repo
-    mod_loader: lovely
-    url: https://github.com/OceanRamen/Brainstorm
-  - credit: '[@MathIsFun_](https://github.com/mathisfun0)'
-    description: Talisman is a mod for Balatro that increases the score cap from ~10^308
-      to ~10^10^308, allowing for endless runs to go past "naneinf" and Ante 39.
-    display_name: Talisman
-    install_type: repo
-    mod_loader: lovely
-    url: https://github.com/MathIsFun0/Talisman
-  - credit: '[@kasimeka](https://github.com/kasimeka)'
-    description: typist is an implementation of fully keyboard-driven UX for Balatro
-      and includes a lot of QoL shortcuts as well.
-    display_name: typist
-    install_type: repo
-    mod_loader: lovely
-    url: https://github.com/kasimeka/balatro-typist-mod
-- category: GUI
-  items:
-  - credit: '[@Eremel_](https://github.com/Eremel)'
-    description: Malverk is an all-in-one texture manager. With an inbuilt API for
-      AltTextures and TexturePacks, Malverk integrates a simple UI to customise which
-      textures are applied to your game whenever you wish.
-    display_name: Malverk
-    install_type: repo
-    mod_loader: lovely
-    url: https://github.com/Eremel/Malverk
-  - credit: '[@antler5](https://github.com/antler5)'
-    description: '"Use" a planet card while the cash-out animations play.'
-    display_name: Planet Card Cash-Out Mod
-    install_type: repo
-    mod_loader: lovely
-    url: https://github.com/antler5/Balatro-Planet-Card-Cash-Out-Mod
-  - credit: using a more legible vector typeface and smoothly upscaled card textures.
-      by [@bladeSk](https://github.com/bladeSk)
-    description: Readabletro improves readability of the game, especially on lower
-      res screens (Steam Deck)
-    display_name: Readabletro
-    install_type: repo
-    mod_loader: lovely
-    url: https://github.com/bladeSk/readabletro
-- category: Jokers
-  items:
-  - credit: '[@JoStro](https://thunderstore.io/c/balatro/p/JoStro/)'
-    description: A custom joker that copies the abilities of other jokers at random.
-    display_name: Parrot Joker
-    install_type: repo
-    mod_loader: lovely
-    url: https://thunderstore.io/c/balatro/p/JoStro/Parrot_Joker/
-- category: Miscellaneous
-  items:
-  - credit: '[@Muddie](https://github.com/Muddieee)'
-    description: On win screen, replaces the "YOU WIN!" text with "#1 VICTORY ROYALE!"
-      and the default win music with fortnite default dance.
-    display_name: '#1 Victory Royale!'
-    install_type: repo
-    mod_loader: lovely
-    url: https://github.com/Muddieee/balatro_victory_royale
-  - credit: '[@Muddie](https://github.com/Muddieee)'
-    description: Renames The Sun tarot card to The Sus and replaces its texture.
-    display_name: When the impostor is Sun
-    install_type: repo
-    mod_loader: lovely
-    url: https://github.com/Muddieee/sun_is_sus
-  - credit: '[@stupxd](https://github.com/stupxd)'
-    description: Improved deck view and joker management with stacking and scrolling,
-      capped deck pile and scoring flames customization. Made for long endless runs
-      and crazy modded runs.
-    display_name: Cartomancer
-    install_type: repo
-    mod_loader: lovely
-    url: https://github.com/stupxd/Cartomancer
-  - credit: '[@stupxd](https://github.com/stupxd)'
-    description: Dynamically adjust Blueprint joker texture to the joker it is copying.
-    display_name: Blueprint
-    install_type: repo
-    mod_loader: lovely
-    url: https://github.com/stupxd/Blueprint
-- category: Translates
-  items:
-  - credit: '[@Nitablade](https://github.com/Nitablade)'
-    description: Russian localization for Balatro.
-    display_name: ProperRussian
-    install_type: repo
-    mod_loader: lovely
-    url: https://github.com/Nitablade/Balatro_ProperRussian
-- category: Utils
-  items:
-  - credit: '[@WilsontheWolf](https://github.com/WilsontheWolf)'
-    description: A simple mod that adds a bunch more debug functions on top of Balatro's
-      built in.
-    display_name: DebugPlus
-    install_type: repo
-    mod_loader: lovely
-    url: https://github.com/WilsontheWolf/DebugPlus
-  - credit: '[@JoStro](https://thunderstore.io/c/balatro/p/JoStro/)'
-    description: Exposes json.lua as a module using lovely.
-    display_name: json
-    install_type: repo
-    mod_loader: lovely
-    url: https://thunderstore.io/c/balatro/p/JoStro/json/
-  - credit: '[@JoStro](https://thunderstore.io/c/balatro/p/JoStro/)'
-    description: Lets mods add item prototypes, descriptions and custom sprites with
-      simple json configuration files.
-    display_name: JSUtils
-    install_type: repo
-    mod_loader: lovely
-    url: https://thunderstore.io/c/balatro/p/JoStro/JSUtils/
-  - credit: '[@WilsontheWolf](https://github.com/WilsontheWolf)'
-    description: Misc score improvements (Better score display, fixed fire at inf,
-      inf blinds let you win).
-    display_name: ScoreImprovements
-    install_type: repo
-    mod_loader: lovely
-    url: https://github.com/WilsontheWolf/balatro-mods/tree/master/lovely/ScoreImprovements
-- category: Textures
-  items: []
-- category: Translates
-  items:
-  - credit: '[@olenicandrei](https://github.com/olenicandrei) and `@RO community`'
-    description: Romanian Localization Mod.
-    display_name: BalatRO
-    install_type: repo
-    mod_loader: unknown
-    url: https://github.com/olenicandrei/balatro-romanian-translations
